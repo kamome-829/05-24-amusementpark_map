@@ -1,0 +1,26 @@
+.title{
+width: 100%;
+border-bottom: solid 3px #87CEFA;
+}
+
+.main{
+    background-image: url(../photo/title.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.map_high{
+    height: 80%;
+    width: 50%;
+    margin-left: 45%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 3px;
+}

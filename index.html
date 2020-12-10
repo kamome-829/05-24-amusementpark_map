@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+        src='https://www.bing.com/api/maps/mapcontrol?key=ApjW37sYbJaZyOxnpdJvoK8kCQtvbCH2NgVkFvDnYOmGy-RDYNHmFbe4SrW9FshW'
+        async defer></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/map.js"></script>
+    <script src="js/deta.js"></script>
+    <title>全国遊園地マップ</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            height: 80%;
+            width: 50;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <div class="title">
+            <h1>全国遊園地マップ</h1>
+        </div>
+        <div class="main">
+            <div class="buttun">
+                <a class="ch_buttun" id="map_open">場所を表示</a>
+            </div>
+            <div class="map_high">
+                <div id="map" class="map"></div>
+            </div>
+        </div>
+
+    </head>
+
+</body>
+
+</html>
