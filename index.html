@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src='https://www.bing.com/api/maps/mapcontrol?key=' async defer></script>
+    <script
+        src='https://www.bing.com/api/maps/mapcontrol?key=ApjW37sYbJaZyOxnpdJvoK8kCQtvbCH2NgVkFvDnYOmGy-RDYNHmFbe4SrW9FshW'
+        async defer></script>
     <link rel="stylesheet" href="css/index.css">
     <script src="js/map.js"></script>
     <script src="js/deta.js"></script>
@@ -35,14 +37,19 @@
             <h1>全国遊園地マップ</h1>
         </div>
         <div class="main">
-            <div class="buttun">
-                <a class="ch_buttun" id="map_open">場所を表示</a>
+            <div class="button">
+                <a class="ch_button" id="map_open">場所を表示</a>
             </div>
             <div class="map_high">
                 <div id="map" class="map"></div>
             </div>
         </div>
-
+        <h1>遊園地を検索</h1>
+        <div class="comand">
+            <input class="comand_text" id="comand_text" placeholder="検索"></input>
+            <a class="ch_button" id="comand_buttun">OK?</a>
+        </div>
+        <div class="tuika" id="tuika"></div>
     </head>
 
 </body>
